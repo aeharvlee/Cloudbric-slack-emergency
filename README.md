@@ -1,7 +1,12 @@
 # Cloudbric-slack-emergency
 
+## Overview
 1. When we assign manager to respond to emergencies, we use Google Calendar.
 2. Then we register manager assigned to emergencies with Slack using API.
+
+## Requirement & Setup
+* Anaconda3
+* Import env.yml into your conda
 
 ## Process
 * Download csv file(saved as "clb_error_manager_list") from Google Calendar.
