@@ -11,7 +11,7 @@ year_and_month = df.columns[0]
 df.columns = ['sun', 'mon', 'tue', 'wed', 'thr', 'fri', 'sat']
 
 year = year_and_month[0:4]
-month = year_and_month[6:8].zfill(2)
+month = year_and_month[6:7].zfill(2) # 1의 자리 수의 월 또는 10의 자리 수 월에 따라 변경되어야 한다.
 month_name = calendar.month_name[int(month)]
 week_days = df.iloc[0, ] # 일요일, 월요일, ... , 금요일, 토요일
 
